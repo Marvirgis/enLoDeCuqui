@@ -22,6 +22,13 @@ a{
     background-color: aliceblue;
     border-radius: 10px;
 }
+#cat_index{
+    background-color: aliceblue;
+    padding: 15px;
+    border: 1px dotted purple;
+    border-radius: 20px;
+    text-align: center;
+}
 .productos{
     display: flex;
     flex-direction: column;
@@ -30,11 +37,12 @@ a{
     flex-wrap: wrap;
 }
 .productos_categoria{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 10px;
     border: 1px solid black;
