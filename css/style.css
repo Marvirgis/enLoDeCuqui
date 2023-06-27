@@ -50,7 +50,20 @@ a{
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 380px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.productos_items{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
     margin: 10px;
     border: 1px solid black;
     background-color: aliceblue;
@@ -61,6 +74,19 @@ a{
     width: 200px;
     height: 200px;
     object-fit: contain;
+}
+.productos_items img{
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 15px;
 }
 h2,p,span,a{
     font-weight: bold;
