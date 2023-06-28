@@ -93,7 +93,7 @@ button{
     font-weight: bold;
     border-radius: 15px;
 }
-h2,p,span,a,label{
+h2,p,span,a,label,#enviar{
     font-weight: bold;
 }
 .contacto{
@@ -101,6 +101,10 @@ h2,p,span,a,label{
 }
 label, input{
     margin:10px;
+}
+#texto{
+    width: 250px;
+    height: 250px;
 }
 @media (min-width:501px){
     .productos{
