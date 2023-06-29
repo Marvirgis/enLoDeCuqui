@@ -48,6 +48,9 @@ nav a{
     align-items: center;
     flex-wrap: wrap;
 }
+.productos a{
+    text-decoration: none;
+}
 .productos_categoria{
     text-align: center;
     display: flex;
