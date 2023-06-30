@@ -64,6 +64,9 @@ nav a{
     background-color: aliceblue;
     border-radius: 5px;
 }
+.productos_categoria:hover{
+    scale:1.2;
+}
 .productos_items{
     text-align: center;
     display: flex;
