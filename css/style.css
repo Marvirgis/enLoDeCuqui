@@ -121,7 +121,7 @@ footer{
 }
 @media (max-width:500px){
     .productos_categoria:hover{
-        scale:0
+        scale:1;
     }
 }
 @media (min-width:501px){
